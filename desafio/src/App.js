@@ -1,21 +1,26 @@
-import React, {Component} from 'react';
-import Form from './components/Form/Form';
-import Users from './components/Users/Users';
+import React, { Component } from 'react';
+import {Route, Switch} from 'react-router-dom';
+import Search from './Pages/Search/Search';
+import SearchResult from './Pages/SearchResult';
+import {withRouter} from 'react-router';
 
 class App extends Component {
-   
-  render(){
+  render() {
     return(
-      <div className="App">
+      <Switch>
+        
+        <Route path='/search' component={Search}/> 
 
-        <div>
-          <h1> Github Search </h1>
-        </div>
-        <Form />
-        <Users />
-      </div>
-    );
+        <Route path='/searchresult' component={SearchResult}/>
+
+        <Route component ={PageNotFound}/>
+
+
+      
+      </Switch>
+
+    )
   }
 }
 
-export default App;
+export default withRouter(App);

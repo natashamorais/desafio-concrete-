@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Form extends Component{
+class Form extends Component {
 
     state = {
         user: ""
@@ -8,7 +8,7 @@ class Form extends Component{
 
     handleChange = e => {
         this.setState({ user: e.target.value });
-       
+
     }
 
     handleSubmit = e => {
@@ -17,18 +17,18 @@ class Form extends Component{
         console.log(user);
     }
 
-    
 
-    render(){
+
+    render() {
         return (
 
             <form onSubmit={this.handleSubmit}>
+ 
 
-               
-                    <input type="text" name="search-input" value={this.state.user} onChange={this.handleChange} />
-                    <button> Search </button>
+                <input type="text" name="search-input" value={this.state.user} onChange={this.handleChange} />
+                <button> Search </button>
 
-                
+
 
 
 
