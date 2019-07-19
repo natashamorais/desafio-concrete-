@@ -1,0 +1,36 @@
+.body{
+    height: 800px;
+    width: 1152px;
+}
+.result-page__search{
+    display: flex;
+}
+.result-page__title{
+    display: flex;
+ width: 375px;
+}
+.result-page__title h1{
+    font-size: 40px;
+    color: #000000;
+    
+}
+.result-page__title--bold{
+    
+    font-family: Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+    font-weight: 500;
+    margin-right: 4px;
+   
+ 
+}
+.result-page__title--italic{
+   
+    font-weight: 200; 
+    font-style: italic;
+    margin-left: 4px;
+}
+
+.result-page__form{
+
+    margin-top: 30px;
+}

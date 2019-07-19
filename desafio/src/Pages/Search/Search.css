@@ -1,0 +1,31 @@
+body{
+    height: 700px;
+    width: 1152px;
+}
+
+.search-page__title{
+    display: flex;
+    margin: 244px 475px 10px;
+}
+.search-page__title h1{
+    text-align: center;
+    font-size: 60px;
+}
+.search-page__title--bold{
+    
+    font-family: Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+    font-weight: 500;
+    color: #000000;
+    margin-right: 8px;
+}
+.search-page__title--italic{
+   
+    font-weight: 200;
+    font-style: italic;
+    margin-left: 8px;
+}
+
+.search-page__input{
+    margin: 10px 329px 244px;
+}

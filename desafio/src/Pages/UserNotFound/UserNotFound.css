@@ -1,0 +1,52 @@
+body{
+width: 1152;
+height: 800px;
+
+}
+.notfound-page{
+    margin: 10px;
+}
+
+.notfound-page__search{
+    display: flex;
+}
+.notfound-page__title{
+    display: flex;
+ width: 375px;
+}
+.notfound-page__title h1{
+    font-size: 40px;
+    color: #000000;
+    
+}
+.notfound-page__title--bold{
+    
+    font-family: Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+    font-weight: 500;
+    margin-right: 4px;
+   
+ 
+}
+.notfound-page__title--italic{
+   
+    font-weight: 200; 
+    font-style: italic;
+    margin-left: 4px;
+}
+
+.notfound-page__form{
+
+    margin-top: 30px;
+}
+
+.notfound-page__message{
+    margin: 209px 419px 550px;
+}
+
+.notfound-page__message h2{
+font-size: 40px;
+font-family:'Raleway';
+font-weight: 400;
+color: #ac53f2;
+}
