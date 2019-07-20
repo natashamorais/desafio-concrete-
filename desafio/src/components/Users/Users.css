@@ -1,0 +1,50 @@
+.body{
+    font-family: 'Raleway', sans-serif;
+}
+.users-result{
+    margin-top: 10px;
+}
+.users-result__profilepic img{
+    width: 280px;
+    height:280px;
+    border-radius:2px;
+}
+.users-result p{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #5c5c5c;
+    margin: 0 0 5px;
+}
+.users-result__name p {
+    font-size: 35px;
+    color: #000000;
+}
+
+
+
+.users-result__follow{
+    display: flex;
+    margin: 11px 0;
+}
+
+.users-result__follow--followers{
+    display: flex;
+    margin-right: 10px;
+}
+
+.users-result__follow--followers p{
+    margin-top: 0px;
+}
+
+
+.users-result__follow--following{
+display:flex;
+}
+
+.users-result__follow--following p{
+    margin-top: 0px;
+}
+
+.users-results__bio{
+    margin-bottom: 5px;
+}

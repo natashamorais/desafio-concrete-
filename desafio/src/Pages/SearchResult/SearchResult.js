@@ -7,8 +7,8 @@ import './SearchResult.css'
 
 
 
-const SearchResult = () => {
-
+const SearchResult = (props) => {
+console.log(props , "props aaaaaaaaaaaaa")
     return (
         <div className="result-page">
             
@@ -23,13 +23,14 @@ const SearchResult = () => {
 
             </div>
            
-            <div className="result-page__result">
+             <div className="result-page__result">
                 <div className="result-page__Users">
-                    <Users />
+                <Users searchText={props.match.params.searchText} />
+
                 </div>
                 <div className="result-page__UsersRepos">
 
-                    <UsersRepos />
+                <UsersRepos searchText={props.match.params.searchText} />
                 </div>
             </div>
 

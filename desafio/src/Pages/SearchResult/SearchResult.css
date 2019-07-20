@@ -1,13 +1,20 @@
-.body{
-    height: 800px;
-    width: 1152px;
+.result-page{
+    max-width: 700px;
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    right: 5%;
 }
 .result-page__search{
     display: flex;
 }
+.result-page__form{
+    margin-top: 30px;
+    margin-left: 9%;
+}
 .result-page__title{
     display: flex;
- width: 375px;
+ 
 }
 .result-page__title h1{
     font-size: 40px;
@@ -24,13 +31,18 @@
  
 }
 .result-page__title--italic{
-   
+    font-family: 'Raleway', sans-serif;
     font-weight: 200; 
     font-style: italic;
     margin-left: 4px;
 }
 
-.result-page__form{
 
-    margin-top: 30px;
+
+.result-page__result{
+    display: flex;
+}
+
+.result-page__UsersRepos{
+  margin-left:7%;
 }

@@ -1,0 +1,47 @@
+.body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+.usersRepos-result{
+    margin: 0 0 35px;
+}
+.usersRepos-result__name{
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ac53f2;
+    margin-top: 0;
+}
+
+.usersRepos-result__name p {
+    margin: 0 0 8px;
+}
+
+.usersRepos-result__description{
+    font-size: 20px;
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.usersRepos-result__description p{
+    margin-bottom: 10px;
+}
+.usersRepos-result__stars{
+    display: flex;
+}
+.usersRepos-result__stars p{
+    font-size: 20px;
+    font-weight: 300;
+    color: #5c5c5c;
+    margin: 0px 10px;
+
+}

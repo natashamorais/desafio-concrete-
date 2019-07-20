@@ -1,11 +1,15 @@
-body{
-    height: 700px;
-    width: 1152px;
+
+.search-page{
+    position: absolute;
+    top: 27%;
+    left: 32%;
+    right: 25%;
+    max-width: 700px;
 }
 
 .search-page__title{
     display: flex;
-    margin: 244px 475px 10px;
+ 
 }
 .search-page__title h1{
     text-align: center;
@@ -20,12 +24,13 @@ body{
     margin-right: 8px;
 }
 .search-page__title--italic{
-   
+    font-family: 'Raleway', sans-serif;
     font-weight: 200;
     font-style: italic;
     margin-left: 8px;
 }
 
 .search-page__input{
-    margin: 10px 329px 244px;
+   position: relative;
+    right: 22%;
 }
