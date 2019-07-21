@@ -8,7 +8,6 @@ import './SearchResult.css'
 
 
 const SearchResult = (props) => {
-console.log(props , "props aaaaaaaaaaaaa")
     return (
         <div className="result-page">
             

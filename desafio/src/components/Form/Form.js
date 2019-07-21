@@ -7,28 +7,19 @@ class Form extends Component {
     searchText: ""
   };
 
-  SearchButton = withRouter(({ history }) => (
-    <button className="search-form__button"
-      type="button"
-      onClick={() => {
-        this.forceUpdate();
-        history.push("/searchresult/" + this.state.searchText);
-      }}
-    >
-
-    </button>
-  ));
-
   handleChange = e => {
-    // e.preventDefault();
     this.setState({ searchText: e.target.value });
 
   };
 
+  handleSubmit = e => {
+    e.preventDefault();
+    this.props.history.push("/searchresult/" + this.state.searchText);
+  }
+
   render() {
     return (
-      //<form onSubmit={this.handleSubmit}>
-      <form className="search-form">
+      <form className="search-form" onSubmit={this.handleSubmit}>
         <input
           type="text"
           name="search-input"
@@ -36,10 +27,12 @@ class Form extends Component {
           value={this.state.searchText}
           onChange={this.handleChange}
         />
-        <this.SearchButton />
+        <button className="search-form__button"
+          type="button">
+        </button>
       </form>
     );
   }
 }
 
-export default Form;
+export default withRouter(Form);

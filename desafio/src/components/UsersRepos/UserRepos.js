@@ -14,7 +14,6 @@ class UserRepos extends Component {
     const data = await reposResponse.json();
 
     if (Array.isArray(data)) {
-      // Mapeando apenas os parametros uteis
       const dataMin = data.map(function(item) {
         return {
           id: item.id,
@@ -23,8 +22,7 @@ class UserRepos extends Component {
           stargazers_count: item.stargazers_count
         };
       });
-
-      // Classificando por ordem decrescente (b-a)
+      
       const dataMinSort = dataMin.sort(function(a, b) {
         return b.stargazers_count - a.stargazers_count;
       });
