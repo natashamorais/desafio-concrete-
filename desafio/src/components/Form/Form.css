@@ -8,16 +8,16 @@
     height: 50px;
     background-color: #ffffff;
     margin-top: 0;
-   border: 0;
 }
 
 .search-form__button{
    
   width: 100px;
-  height: 52px;
+  height: 56px;
   border-radius: 2px;
   background-color: #ac53f2;
   background-image: url("../../assets/img/search-icon.png");
   background-repeat: no-repeat;
+  border-width: 0;
  
 }

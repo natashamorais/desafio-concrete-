@@ -9,6 +9,7 @@
 
 .search-page__title{
     display: flex;
+    margin-left: 3%;
  
 }
 .search-page__title h1{
