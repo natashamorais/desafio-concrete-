@@ -27,8 +27,7 @@ class Form extends Component {
           value={this.state.searchText}
           onChange={this.handleChange}
         />
-        <button className="search-form__button"
-          type="button">
+        <button className="search-form__button">
         </button>
       </form>
     );
